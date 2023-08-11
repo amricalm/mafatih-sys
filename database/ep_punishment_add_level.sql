@@ -1,0 +1,2 @@
+ALTER TABLE ep_punishment
+ADD LEVEL INT(1) AFTER DATE;

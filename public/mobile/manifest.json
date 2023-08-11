@@ -1,0 +1,43 @@
+{
+    "name": "EDUSIS",
+    "short_name": "EDUSIS",
+    "start_url": "home",
+    "display": "fullscreen",
+    "background_color": "#efefef",
+    "theme_color": "#1d28ad",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "img/favicon72.png",
+        "type": "image/png", "sizes": "72x72"
+      },
+      {
+        "src": "img/favicon96.png",
+        "type": "image/png", "sizes": "96x96"
+      },
+      {
+        "src": "img/favicon128.png",
+        "type": "image/png","sizes": "128x128"
+      },
+      {
+        "src": "img/favicon144.png",
+        "type": "image/png", "sizes": "144x144"
+      },
+      {
+        "src": "img/favicon152.png",
+        "type": "image/png", "sizes": "152x152"
+      },
+      {
+        "src": "img/favicon192.png",
+        "type": "image/png", "sizes": "192x192"
+      },
+      {
+        "src": "img/favicon384.png",
+        "type": "image/png", "sizes": "384x384"
+      },
+      {
+        "src": "img/favicon512.png",
+        "type": "image/png", "sizes": "512x512"
+      }
+    ]
+  }

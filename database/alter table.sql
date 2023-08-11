@@ -1,0 +1,5 @@
+ALTER TABLE aa_achievement
+ADD COLUMN DATE DATE;
+
+ALTER TABLE ep_subject_basic
+ADD LEVEL INT(11);

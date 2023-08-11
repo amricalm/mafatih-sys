@@ -1,0 +1,61 @@
+/*
+    Document   : cetak.css
+    Created on : 13 Sep 11, 5:36:04
+    Author     : andhana
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {font:0.8em/1.5 "Arial";}
+#main {min-width:980px; width:expression(document.body.clientWidth < 980 ? "980px" : "auto" );}
+#content {background:#fff;padding:0}
+#cols {margin:0; background:#fff;}
+#content table {border : 1px solid black;width:100%}
+#content table th {border:1px solid black; background-color:#cfcfcf; color:#000;line-height: 25px;}
+#content table th {text-align:center; vertical-align:middle; font-weight:bold;}
+#content table td {border:1px solid black;line-height: 25px;padding:2px;min-height: 25px}
+#content table.nostyle{border : none;width:100%}
+#content table.nostyle th{border:none; background-color:#fff; color:#000;line-height: 25px;}
+#content table.nostyle th {text-align:center; vertical-align:middle; font-weight:bold;}
+#content table.nostyle td{border:none;line-height: 25px;padding:2px;min-height: 25px}
+.headerdata{width:20%}
+.isidata{width:30%}
+.gambar{width:100px;text-align: center}
+#content table.nostyle{border:none}
+#content table.nostyle td{border:none}
+
+#content table.pengeluaran {border : 1px solid black;width:100%}
+#content table.pengeluaran th {border:1px solid black; background-color:#cfcfcf; color:#000;line-height: 25px;}
+#content table.pengeluaran th {text-align:center; vertical-align:middle; font-weight:bold;}
+#content table.pengeluaran td {border:1px solid black;line-height: 25px;padding:2px;min-height: 25px;}
+
+.sembunyi a{
+    color:black;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-decoration: none;
+}
+.sembunyi a:hover{
+    text-decoration:underline;
+}
+.sembunyi-kanan {
+  position:fixed;
+  right:0;
+  bottom: 0;
+  background: greenyellow;
+  padding:5px;
+}
+.sembunyi-kanan a{
+    color:black;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-decoration: none;
+}
+.sembunyi-kanan a:hover{
+    text-decoration:underline;
+}
